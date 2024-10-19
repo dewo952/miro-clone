@@ -34,7 +34,7 @@ Follow these steps to run the Miro Clone locally:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/miro-clone.git
+   git clone https://github.com/dewo952/miro-clone.git
 2. **Navigate into the project directory**:
    ```bash
    cd miro-clone
