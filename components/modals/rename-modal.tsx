@@ -1,7 +1,7 @@
 "use client";
 
 import { FormEventHandler, useEffect, useState } from "react";
-import { useRenameModal } from "@/hooks/use-rename-modal";
+import { useRenameModal } from "@/store/use-rename-modal";
 import {
   Dialog,
   DialogContent,

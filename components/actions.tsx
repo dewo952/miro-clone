@@ -13,7 +13,7 @@ import { useApiMutation } from "@/hooks/use-api-mutation";
 import { api } from "@/convex/_generated/api";
 import { ConfirmModal } from "./confirm-modal";
 import { Button } from "./ui/button";
-import { useRenameModal } from "@/hooks/use-rename-modal";
+import { useRenameModal } from "@/store/use-rename-modal";
 interface ActionsProps {
   children: React.ReactNode;
   side?: DropdownMenuContentProps["side"];

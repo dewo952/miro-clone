@@ -43,11 +43,14 @@ Follow these steps to run the Miro Clone locally:
    npm install
 4. **Set up environment variables for Clerk and Liveblocks.io in a .env.local file**:
    ```bash
-   CONVEX_DEPLOYMENT=<your_development_url>
-   NEXT_PUBLIC_CONVEX_URL=<your_clerk_frontend_api>
-   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<your_publishable_clerk_key>
-   CLERK_SECRET_KEY=<your_clerk_api_key>
-   LIVE_BLOCK_SECRET_KEY=<your_liveblocks_public_key>
+   CONVEX_DEPLOYMENT=<your_convex_deployment_key>
+   NEXT_PUBLIC_CONVEX_URL=<your_convex_public_url>
+   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<your_clerk_publishable_key>
+   CLERK_SECRET_KEY=<your_clerk_secret_key>
+   LIVE_BLOCK_SECRET_KEY=<your_liveblock_secret_key>
+   STRIPE_SECRET_API_KEY=<your_stripe_secret_api_key>
+   STRIPE_WEBHOOK_SECRET=<your_stripe_webhook_secret_key>
+   NEXT_PUBLIC_APP_URL=<your_development_url>
 5. **Start the Next-JS development server**:
    ```bash
    npm run dev
@@ -60,7 +63,9 @@ Follow these steps to run the Miro Clone locally:
 6. **Start the Convex development server**:
    ```bash
    npm convex dev
-7. **Open** your browser and visit ```http://localhost:3000``` to access the app
+7. **Open** your browser and visit ```http://localhost:3000``` to access the app.  
+
+8. **Note**: Change the `NEXT_PUBLIC_APP_URL` value based on your current development URL. When deploying, make sure to update it to the production URL.
 
 ## Contribution
 Feel free to fork the repository, open issues, or submit pull requests to improve the project. Contributions are always welcome!

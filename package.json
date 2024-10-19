@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "stripe:listen": "stripe listen --forward-to https://whimsical-mink-256.convex.site/stripe",
+    "stripe:trigger": "stripe trigger payment_intent.succeeded"
   },
   "dependencies": {
     "@clerk/nextjs": "^5.7.2",
@@ -35,6 +37,7 @@
     "react-contenteditable": "^3.3.7",
     "react-dom": "^18",
     "sonner": "^1.5.0",
+    "stripe": "^17.2.1",
     "tailwind-merge": "^2.5.3",
     "tailwindcss-animate": "^1.0.7",
     "usehooks-ts": "^3.1.0",
