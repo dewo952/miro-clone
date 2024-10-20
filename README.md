@@ -32,6 +32,12 @@ Miro Clone is a web-based collaborative whiteboard application that enables team
   - **Canvas State**: Covex for real-time canvas editing
   - **Payments & Subscriptions**: Stripe for handling payments and subscriptions
 
+  ## Database Model
+
+  Here is the database model for the Miro Clone application:
+
+  ![Database Model](./public/miro-database-modal.png)
+
   ## Installation & Setup
 
   Follow these steps to run the Miro Clone locally:
