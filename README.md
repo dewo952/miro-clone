@@ -36,7 +36,7 @@ Miro Clone is a web-based collaborative whiteboard application that enables team
 
   Here is the database model for the Miro Clone application:
 
-  ![Database Model](./public/miro-database-modal.png)
+  ![Database Model](./public/miro--clone-database-modal.png)
 
   ## Installation & Setup
 
