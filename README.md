@@ -2,6 +2,8 @@
 
 Miro Clone is a web-based collaborative whiteboard application that enables teams, classrooms, and creators to brainstorm, plan, and visualize ideas seamlessly in real-time. Built for modern collaboration, this clone offers essential tools and a smooth user experience for working together on a shared canvas.
 
+![Miro Clone Demo](./public/miro.gif)
+
 ## Features
 
 - 🖊️ **Drawing Tools**: Includes text, sticky notes, rectangles, ellipses, and freehand drawing (pencil).
